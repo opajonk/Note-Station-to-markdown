@@ -29,7 +29,7 @@ build Docker image
 
 run the docker image  
 
-`docker run -it -v "$PWD:/nsx2md nsx2md <file.nsx>`  
+`docker run -it -v "$PWD:/data" nsx2md <file.nsx>`  
 
 # Optional settings
 Inside the script you can make some adjustments to the link format and notes metadata:  
